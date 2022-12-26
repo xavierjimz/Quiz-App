@@ -3,25 +3,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Importing Bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/styles.css">
     <title>Networking Quiz App</title>
 </head>
 <body>
-    <div class="container">
-        <div id="question-container" class="hide"> 
-            <div id="question-text">What are the seven layers of the OSI model?</div>
-                <div id="answer-btns" class="btn-grid">
-                    <button class="btn">Answer 1</button>
-                    <button class="btn">Answer 2</button>
-                    <button class="btn">Answer 3</button>
-                    <button class="btn">Answer 4</button>
-                </div>
-        </div>
-        <div class="controls">
-            <button id="submit-btn" type="button" class="btn btn-primary">Submit</button>
-        </div>
+    <div class="container" id="quiz-app">
+       <div class="quiz-header">
+        <h2 id="questions">Question</h2>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" id="a" class="answer">
+                    <label for="a" id="questionA_text">Answer 1</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" id="b" class="answer">
+                    <label for="b" id="questionB_text">Answer 2</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" id="c" class="answer">
+                    <label for="c" id="questionC_text">Answer 3</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" id="d" class="answer">
+                    <label for="d" id="questionD_text">Answer 4</label>
+                </li>
+            </ul>
+       </div>
+       <button id="submit-btn">Submit</button>
     </div>
 
 
