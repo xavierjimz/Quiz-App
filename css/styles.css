@@ -1,0 +1,53 @@
+/*Imorting fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Montserrat:wght@300&family=Source+Sans+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Source+Sans+Pro:wght@200&display=swap');
+
+/*default page marging*/ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../img/bg-waves.svg");
+    height: 100vh;
+    background-size: cover;
+}
+
+.question-text {
+    font-family: 'Inter', sans-serif;
+}
+.container {
+    text-align: center;
+    background-color: #ecf0f1;
+    box-shadow: 0 0 15px 1px;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 15%;
+    margin-left: 50%;
+    max-width: 80%;
+    width: 500px;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    background-color: #ecf0f1;
+}
+.submit-btn {
+    text-align: center;
+    padding: 5%;
+    width: 100%;
+}
+
+.answer-btns {
+    padding: 10%;
+}
+
+.btn-grid {
+    display: grid;
+    margin: 20px 0;
+    gap: 20px;
+}
+
+
